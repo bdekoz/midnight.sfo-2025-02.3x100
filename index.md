@@ -4,7 +4,7 @@
 
 
 ## Results
-- [dominiquegambier_fr](./pages/2025-02-03-android-dominiquegambier_fr-aggregate.svg)
+- [dominiquegambier_fr](/pages/2025-02-03-android-dominiquegambier_fr-aggregate.svg)
 - [goizperna](/pages/2025-02-03-android-goizperna-aggregate.svg)
 - [addario](/pages/2025-02-03-android-addario-aggregate.svg)
 - [bulutokul](/pages/2025-02-03-android-bulutokul-aggregate.svg)
