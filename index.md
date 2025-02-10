@@ -1,7 +1,7 @@
 ## About
 - [progressive metrics](/docs/about_1.md)
 - [key to glyphs](/docs/about_2.md)
-
+- Android 15, Pixel 8, 1 iteration (sfo)
 
 ## Results
 - [dominiquegambier_fr](/pages/2025-02-03-android-dominiquegambier_fr-aggregate.svg)
