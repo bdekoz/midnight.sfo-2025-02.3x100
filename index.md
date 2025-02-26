@@ -3,7 +3,6 @@
 - [key to visualization](/docs/about_2.md)
 - [test and device metadata](/docs/results_metadata.md)
 - [notes](/docs/observations_notes.md)
-- [perf view](perfview.html)
 
 
 ## Results
@@ -104,4 +103,4 @@
 
 
 ## Data
-* [json](https://github.com/bdekoz/midnight.ci-2025-02/tree/main/results)
+* [json](https://github.com/bdekoz/midnight.sfo-2025-02.3x100/tree/main/results)
