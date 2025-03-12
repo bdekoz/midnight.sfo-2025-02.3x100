@@ -11,6 +11,7 @@ if [ ! -d tmp ]; then
 fi
 
 TPMETADATA1="android-15-p8"
+TPMETADATA1a="android-15-p8-a11y-on"
 TPMETADATA2="android-15-ptablet"
 TPMETADATA3="android-14-a55"
 TPMETADATA4="linux-18"
@@ -139,5 +140,5 @@ generate_2_col_index() {
 }
 
 TPMETADATA_A=$TPMETADATA1
-TPMETADATA_B=$TPMETADATA2
-#generate_2_col_index "$TPMETADATA_A" "2025-02-09" "$TPMETADATA_B" "2025-02-15" "./sitelist.txt"
+TPMETADATA_B=$TPMETADATA1a
+generate_2_col_index "$TPMETADATA_A" "2025-02-15" "$TPMETADATA_B" "2025-02-20" "./sitelist.txt"
