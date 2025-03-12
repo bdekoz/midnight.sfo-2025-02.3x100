@@ -183,6 +183,206 @@
         "stddev": "2470.000000",
         "rsd": "18.171117"
       },
+      "A11Y_CoalesceEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_CoalesceMutationEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedAcc": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedNode": {
+        "median": "1.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_DoInitialUpdate": {
+        "median": "8.000000",
+        "stddev": "6.751852",
+        "rsd": "77.164018"
+      },
+      "A11Y_ProcessQueuedCacheUpdate": {
+        "median": "19.000000",
+        "stddev": "6.499808",
+        "rsd": "30.161521"
+      },
+      "A11Y_ProcessShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_PruneOrInsertSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_RecvCache": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShutdownChildrenInSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Compositing": {
+        "median": "490.000000",
+        "stddev": "113.245486",
+        "rsd": "22.144209"
+      },
+      "DisplayListBuilding": {
+        "median": "30.000000",
+        "stddev": "10.789347",
+        "rsd": "32.400440"
+      },
+      "FrameBuilding": {
+        "median": "62.000000",
+        "stddev": "19.121977",
+        "rsd": "24.996048"
+      },
+      "HttpChannelAsyncOpenToTransactionPending": {
+        "median": "314.000000",
+        "stddev": "86.722705",
+        "rsd": "25.821856"
+      },
+      "HttpChannelCompletion": {
+        "median": "23878.000000",
+        "stddev": "9146.066627",
+        "rsd": "33.402236"
+      },
+      "HttpChannelCompletion_Cache": {
+        "median": "415.000000",
+        "stddev": "240.742451",
+        "rsd": "51.347435"
+      },
+      "HttpChannelCompletion_Network": {
+        "median": "23215.000000",
+        "stddev": "9133.354848",
+        "rsd": "33.936907"
+      },
+      "HttpChannelResponseEndParentToContent": {
+        "median": "430.000000",
+        "stddev": "245.577376",
+        "rsd": "54.761373"
+      },
+      "HttpChannelResponseStartParentToContent": {
+        "median": "5204.000000",
+        "stddev": "3121.110974",
+        "rsd": "47.952909"
+      },
+      "HttpTransactionWaitTime": {
+        "median": "2856.000000",
+        "stddev": "863.200989",
+        "rsd": "29.132178"
+      },
+      "JSBC_Compression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_Decompression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Read": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Write": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "LayerTransactions": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "MajorGC": {
+        "median": "381.000000",
+        "stddev": "106.050413",
+        "rsd": "27.754622"
+      },
+      "MinorGC": {
+        "median": "25.000000",
+        "stddev": "3.553519",
+        "rsd": "14.714366"
+      },
+      "NonIdleMajorGC": {
+        "median": "37.000000",
+        "stddev": "16.663133",
+        "rsd": "42.507992"
+      },
+      "OnDataAvailableSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnDataAvailableToContent": {
+        "median": "636.000000",
+        "stddev": "769.093458",
+        "rsd": "83.783807"
+      },
+      "OnStartRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStartRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Rasterizing": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Reflowing": {
+        "median": "80.000000",
+        "stddev": "21.789676",
+        "rsd": "25.971009"
+      },
+      "ResponseEndSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Styling": {
+        "median": "90.000000",
+        "stddev": "18.537530",
+        "rsd": "19.390721"
+      },
+      "WrDisplayListBuilding": {
+        "median": "25.000000",
+        "stddev": "7.918965",
+        "rsd": "26.663180"
+      },
       "lcp_element": "\"\"https://vazhnoznat.com/wp-content/uploads/m/modnye-podarki/thumb.jpg\"\"",
       "PerceptualSpeedIndexProgress": [
         {

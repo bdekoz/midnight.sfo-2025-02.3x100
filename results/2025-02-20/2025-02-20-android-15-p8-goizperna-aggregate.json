@@ -192,6 +192,206 @@
         "stddev": "0.000000",
         "rsd": "0.000000"
       },
+      "A11Y_CoalesceEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_CoalesceMutationEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedAcc": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedNode": {
+        "median": "0.000000",
+        "stddev": "0.357071",
+        "rsd": "238.047614"
+      },
+      "A11Y_DoInitialUpdate": {
+        "median": "0.000000",
+        "stddev": "0.433013",
+        "rsd": "173.205081"
+      },
+      "A11Y_ProcessQueuedCacheUpdate": {
+        "median": "46.000000",
+        "stddev": "2.701851",
+        "rsd": "5.873590"
+      },
+      "A11Y_ProcessShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_PruneOrInsertSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_RecvCache": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShutdownChildrenInSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Compositing": {
+        "median": "1482.000000",
+        "stddev": "131.872818",
+        "rsd": "9.109755"
+      },
+      "DisplayListBuilding": {
+        "median": "77.000000",
+        "stddev": "5.230679",
+        "rsd": "6.810780"
+      },
+      "FrameBuilding": {
+        "median": "82.000000",
+        "stddev": "7.105456",
+        "rsd": "8.535082"
+      },
+      "HttpChannelAsyncOpenToTransactionPending": {
+        "median": "714.000000",
+        "stddev": "196.569097",
+        "rsd": "26.481085"
+      },
+      "HttpChannelCompletion": {
+        "median": "39303.000000",
+        "stddev": "2064.102434",
+        "rsd": "5.133408"
+      },
+      "HttpChannelCompletion_Cache": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "HttpChannelCompletion_Network": {
+        "median": "39303.000000",
+        "stddev": "2064.102434",
+        "rsd": "5.133408"
+      },
+      "HttpChannelResponseEndParentToContent": {
+        "median": "348.000000",
+        "stddev": "76.966405",
+        "rsd": "22.254274"
+      },
+      "HttpChannelResponseStartParentToContent": {
+        "median": "279.000000",
+        "stddev": "71.599214",
+        "rsd": "23.137571"
+      },
+      "HttpTransactionWaitTime": {
+        "median": "28538.000000",
+        "stddev": "2075.283800",
+        "rsd": "7.054110"
+      },
+      "JSBC_Compression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_Decompression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Read": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Write": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "LayerTransactions": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "MajorGC": {
+        "median": "401.000000",
+        "stddev": "54.395657",
+        "rsd": "13.194823"
+      },
+      "MinorGC": {
+        "median": "17.000000",
+        "stddev": "4.433960",
+        "rsd": "23.584893"
+      },
+      "NonIdleMajorGC": {
+        "median": "17.000000",
+        "stddev": "15.746349",
+        "rsd": "78.929067"
+      },
+      "OnDataAvailableSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnDataAvailableToContent": {
+        "median": "303.000000",
+        "stddev": "102.978384",
+        "rsd": "31.153648"
+      },
+      "OnStartRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStartRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Rasterizing": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Reflowing": {
+        "median": "28.000000",
+        "stddev": "3.679674",
+        "rsd": "13.332152"
+      },
+      "ResponseEndSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Styling": {
+        "median": "60.000000",
+        "stddev": "4.624662",
+        "rsd": "7.740020"
+      },
+      "WrDisplayListBuilding": {
+        "median": "51.000000",
+        "stddev": "3.427463",
+        "rsd": "6.648812"
+      },
       "lcp_element": "\"\"http://www.goizperna.com/store/img/grupos/gr_00004/goizpera_01.jpg\"\"",
       "PerceptualSpeedIndexProgress": [
         {

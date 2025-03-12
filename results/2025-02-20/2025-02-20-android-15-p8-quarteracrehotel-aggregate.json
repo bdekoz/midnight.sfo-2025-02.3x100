@@ -199,6 +199,206 @@
         "stddev": "719.000000",
         "rsd": "4.685335"
       },
+      "A11Y_CoalesceEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_CoalesceMutationEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedAcc": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedNode": {
+        "median": "1.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_DoInitialUpdate": {
+        "median": "5.000000",
+        "stddev": "1.314344",
+        "rsd": "24.567177"
+      },
+      "A11Y_ProcessQueuedCacheUpdate": {
+        "median": "18.000000",
+        "stddev": "6.329297",
+        "rsd": "30.429312"
+      },
+      "A11Y_ProcessShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_PruneOrInsertSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_RecvCache": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShutdownChildrenInSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Compositing": {
+        "median": "4446.000000",
+        "stddev": "246.710052",
+        "rsd": "5.514922"
+      },
+      "DisplayListBuilding": {
+        "median": "42.000000",
+        "stddev": "9.596874",
+        "rsd": "21.326388"
+      },
+      "FrameBuilding": {
+        "median": "393.000000",
+        "stddev": "19.080029",
+        "rsd": "4.775380"
+      },
+      "HttpChannelAsyncOpenToTransactionPending": {
+        "median": "1477.000000",
+        "stddev": "1222.915650",
+        "rsd": "69.870913"
+      },
+      "HttpChannelCompletion": {
+        "median": "18993.000000",
+        "stddev": "1716.803870",
+        "rsd": "8.818979"
+      },
+      "HttpChannelCompletion_Cache": {
+        "median": "159.000000",
+        "stddev": "170.951243",
+        "rsd": "65.037566"
+      },
+      "HttpChannelCompletion_Network": {
+        "median": "18051.000000",
+        "stddev": "1767.673149",
+        "rsd": "9.204617"
+      },
+      "HttpChannelResponseEndParentToContent": {
+        "median": "2911.000000",
+        "stddev": "841.984019",
+        "rsd": "27.910301"
+      },
+      "HttpChannelResponseStartParentToContent": {
+        "median": "2488.000000",
+        "stddev": "635.051683",
+        "rsd": "24.572500"
+      },
+      "HttpTransactionWaitTime": {
+        "median": "2339.000000",
+        "stddev": "599.500448",
+        "rsd": "25.955209"
+      },
+      "JSBC_Compression": {
+        "median": "2.000000",
+        "stddev": "0.963068",
+        "rsd": "40.981618"
+      },
+      "JSBC_Decompression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Read": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Write": {
+        "median": "5.000000",
+        "stddev": "2.922328",
+        "rsd": "45.661372"
+      },
+      "LayerTransactions": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "MajorGC": {
+        "median": "591.000000",
+        "stddev": "63.134301",
+        "rsd": "10.621518"
+      },
+      "MinorGC": {
+        "median": "102.000000",
+        "stddev": "13.974978",
+        "rsd": "13.060727"
+      },
+      "NonIdleMajorGC": {
+        "median": "93.000000",
+        "stddev": "28.420899",
+        "rsd": "32.095877"
+      },
+      "OnDataAvailableSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnDataAvailableToContent": {
+        "median": "5540.000000",
+        "stddev": "1585.059135",
+        "rsd": "25.544046"
+      },
+      "OnStartRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStartRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Rasterizing": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Reflowing": {
+        "median": "42.000000",
+        "stddev": "6.987668",
+        "rsd": "15.755733"
+      },
+      "ResponseEndSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Styling": {
+        "median": "72.000000",
+        "stddev": "11.757870",
+        "rsd": "16.206574"
+      },
+      "WrDisplayListBuilding": {
+        "median": "32.000000",
+        "stddev": "6.279132",
+        "rsd": "18.941575"
+      },
       "lcp_element": "\"\"https://quarteracrehotel.com.au/wp-content/uploads/2024/01/QuarterAcre-128_HR-1290x570.jpg\"\"",
       "PerceptualSpeedIndexProgress": [
         {

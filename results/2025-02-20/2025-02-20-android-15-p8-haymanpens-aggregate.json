@@ -199,6 +199,206 @@
         "stddev": "7.000000",
         "rsd": "0.050699"
       },
+      "A11Y_CoalesceEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_CoalesceMutationEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedAcc": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedNode": {
+        "median": "1.000000",
+        "stddev": "0.458258",
+        "rsd": "65.465367"
+      },
+      "A11Y_DoInitialUpdate": {
+        "median": "24.000000",
+        "stddev": "8.925245",
+        "rsd": "42.909832"
+      },
+      "A11Y_ProcessQueuedCacheUpdate": {
+        "median": "77.000000",
+        "stddev": "5.691002",
+        "rsd": "7.366992"
+      },
+      "A11Y_ProcessShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_PruneOrInsertSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_RecvCache": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShutdownChildrenInSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Compositing": {
+        "median": "3148.000000",
+        "stddev": "580.480370",
+        "rsd": "17.967078"
+      },
+      "DisplayListBuilding": {
+        "median": "169.000000",
+        "stddev": "11.787599",
+        "rsd": "6.935922"
+      },
+      "FrameBuilding": {
+        "median": "189.000000",
+        "stddev": "13.603217",
+        "rsd": "7.315524"
+      },
+      "HttpChannelAsyncOpenToTransactionPending": {
+        "median": "715.000000",
+        "stddev": "119.380735",
+        "rsd": "16.180636"
+      },
+      "HttpChannelCompletion": {
+        "median": "6075.000000",
+        "stddev": "677.783181",
+        "rsd": "10.367779"
+      },
+      "HttpChannelCompletion_Cache": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "HttpChannelCompletion_Network": {
+        "median": "6075.000000",
+        "stddev": "677.783181",
+        "rsd": "10.367779"
+      },
+      "HttpChannelResponseEndParentToContent": {
+        "median": "1375.000000",
+        "stddev": "520.075004",
+        "rsd": "33.962973"
+      },
+      "HttpChannelResponseStartParentToContent": {
+        "median": "1036.000000",
+        "stddev": "274.755546",
+        "rsd": "24.626293"
+      },
+      "HttpTransactionWaitTime": {
+        "median": "301.000000",
+        "stddev": "115.978996",
+        "rsd": "33.976562"
+      },
+      "JSBC_Compression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_Decompression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Read": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Write": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "LayerTransactions": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "MajorGC": {
+        "median": "250.000000",
+        "stddev": "39.031366",
+        "rsd": "14.781809"
+      },
+      "MinorGC": {
+        "median": "18.000000",
+        "stddev": "4.271709",
+        "rsd": "21.305283"
+      },
+      "NonIdleMajorGC": {
+        "median": "36.000000",
+        "stddev": "12.119715",
+        "rsd": "31.276685"
+      },
+      "OnDataAvailableSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnDataAvailableToContent": {
+        "median": "1242.000000",
+        "stddev": "329.114646",
+        "rsd": "26.255656"
+      },
+      "OnStartRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStartRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Rasterizing": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Reflowing": {
+        "median": "58.000000",
+        "stddev": "13.045593",
+        "rsd": "20.147634"
+      },
+      "ResponseEndSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Styling": {
+        "median": "354.000000",
+        "stddev": "23.084356",
+        "rsd": "6.434664"
+      },
+      "WrDisplayListBuilding": {
+        "median": "147.000000",
+        "stddev": "14.595462",
+        "rsd": "9.851813"
+      },
       "lcp_element": "\"\"https://www.haymanpens.com/cdn/shop/collections/142_300x.png?v=1579204006);\"\"",
       "PerceptualSpeedIndexProgress": [
         {

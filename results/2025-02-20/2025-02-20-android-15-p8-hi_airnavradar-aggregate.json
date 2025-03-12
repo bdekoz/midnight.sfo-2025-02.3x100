@@ -5,11 +5,11 @@
   "url": "https://hi.airnavradar.com/",
   "url_content_traits": {
     "compression-dictionary": 0,
-    "dns-prefetch": 0,
-    "google-publisher-tag": 0,
+    "dns-prefetch": 1,
+    "google-publisher-tag": 1,
     "preconnect": 0,
     "prefetch": 0,
-    "preload": 0,
+    "preload": 1,
     "prerender": 0
   },
   "video_side_by_side": "2025-02-20-android-15-p8-hi_airnavradar-side-by-side.mp4",
@@ -198,6 +198,206 @@
         "median": "16404",
         "stddev": "652.000000",
         "rsd": "3.890927"
+      },
+      "A11Y_CoalesceEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_CoalesceMutationEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedAcc": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedNode": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_DoInitialUpdate": {
+        "median": "9.000000",
+        "stddev": "4.114304",
+        "rsd": "36.249377"
+      },
+      "A11Y_ProcessQueuedCacheUpdate": {
+        "median": "230.000000",
+        "stddev": "16.194058",
+        "rsd": "7.024098"
+      },
+      "A11Y_ProcessShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_PruneOrInsertSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_RecvCache": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShutdownChildrenInSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Compositing": {
+        "median": "3339.000000",
+        "stddev": "381.151033",
+        "rsd": "10.863027"
+      },
+      "DisplayListBuilding": {
+        "median": "261.000000",
+        "stddev": "24.389086",
+        "rsd": "9.367807"
+      },
+      "FrameBuilding": {
+        "median": "376.000000",
+        "stddev": "35.758181",
+        "rsd": "9.123149"
+      },
+      "HttpChannelAsyncOpenToTransactionPending": {
+        "median": "11305.000000",
+        "stddev": "3638.506854",
+        "rsd": "28.102329"
+      },
+      "HttpChannelCompletion": {
+        "median": "40570.000000",
+        "stddev": "10243.955140",
+        "rsd": "23.510031"
+      },
+      "HttpChannelCompletion_Cache": {
+        "median": "149.000000",
+        "stddev": "53.749860",
+        "rsd": "34.576945"
+      },
+      "HttpChannelCompletion_Network": {
+        "median": "40380.000000",
+        "stddev": "10249.680330",
+        "rsd": "23.607419"
+      },
+      "HttpChannelResponseEndParentToContent": {
+        "median": "8129.000000",
+        "stddev": "4013.745488",
+        "rsd": "43.426584"
+      },
+      "HttpChannelResponseStartParentToContent": {
+        "median": "6440.000000",
+        "stddev": "2773.564499",
+        "rsd": "39.420461"
+      },
+      "HttpTransactionWaitTime": {
+        "median": "912.000000",
+        "stddev": "405.533414",
+        "rsd": "34.528175"
+      },
+      "JSBC_Compression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_Decompression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Read": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Write": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "LayerTransactions": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "MajorGC": {
+        "median": "548.000000",
+        "stddev": "101.491120",
+        "rsd": "19.315086"
+      },
+      "MinorGC": {
+        "median": "115.000000",
+        "stddev": "24.093360",
+        "rsd": "20.263549"
+      },
+      "NonIdleMajorGC": {
+        "median": "110.000000",
+        "stddev": "37.868556",
+        "rsd": "33.917202"
+      },
+      "OnDataAvailableSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnDataAvailableToContent": {
+        "median": "5447.000000",
+        "stddev": "5148.466819",
+        "rsd": "58.225755"
+      },
+      "OnStartRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStartRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Rasterizing": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Reflowing": {
+        "median": "68.000000",
+        "stddev": "6.837214",
+        "rsd": "9.705059"
+      },
+      "ResponseEndSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Styling": {
+        "median": "91.000000",
+        "stddev": "7.533923",
+        "rsd": "7.997795"
+      },
+      "WrDisplayListBuilding": {
+        "median": "159.000000",
+        "stddev": "13.222235",
+        "rsd": "8.403073"
       },
       "lcp_element": "\"\"https://lh3.googleusercontent.com/Q9ZOkQYqMsIp4zxScPUD4J8cjPqNfVEywSdnOiHRNQhe2t1892-7vu8aQq7u0c4iC_Cam1tQK2Zbi4ZzjUZvHmpK3aeZXVGV0IOJB_CuC2Guk_O5GECo=h60\"\"",
       "PerceptualSpeedIndexProgress": [

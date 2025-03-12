@@ -153,6 +153,206 @@
         "stddev": "2116.000000",
         "rsd": "34.450168"
       },
+      "A11Y_CoalesceEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_CoalesceMutationEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedAcc": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedNode": {
+        "median": "0.000000",
+        "stddev": "0.400000",
+        "rsd": "200.000000"
+      },
+      "A11Y_DoInitialUpdate": {
+        "median": "6.000000",
+        "stddev": "2.414022",
+        "rsd": "31.555837"
+      },
+      "A11Y_ProcessQueuedCacheUpdate": {
+        "median": "7.000000",
+        "stddev": "0.766485",
+        "rsd": "10.572214"
+      },
+      "A11Y_ProcessShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_PruneOrInsertSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_RecvCache": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShutdownChildrenInSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Compositing": {
+        "median": "223.000000",
+        "stddev": "18.586016",
+        "rsd": "8.282538"
+      },
+      "DisplayListBuilding": {
+        "median": "14.000000",
+        "stddev": "1.492481",
+        "rsd": "10.547570"
+      },
+      "FrameBuilding": {
+        "median": "30.000000",
+        "stddev": "6.576283",
+        "rsd": "20.844004"
+      },
+      "HttpChannelAsyncOpenToTransactionPending": {
+        "median": "1650.000000",
+        "stddev": "305.007557",
+        "rsd": "18.151970"
+      },
+      "HttpChannelCompletion": {
+        "median": "6651.000000",
+        "stddev": "1021.311092",
+        "rsd": "14.893453"
+      },
+      "HttpChannelCompletion_Cache": {
+        "median": "150.000000",
+        "stddev": "99.416347",
+        "rsd": "60.362081"
+      },
+      "HttpChannelCompletion_Network": {
+        "median": "6494.000000",
+        "stddev": "979.873690",
+        "rsd": "14.641261"
+      },
+      "HttpChannelResponseEndParentToContent": {
+        "median": "763.000000",
+        "stddev": "552.660879",
+        "rsd": "52.990161"
+      },
+      "HttpChannelResponseStartParentToContent": {
+        "median": "512.000000",
+        "stddev": "442.938472",
+        "rsd": "61.357317"
+      },
+      "HttpTransactionWaitTime": {
+        "median": "376.000000",
+        "stddev": "157.716922",
+        "rsd": "36.521228"
+      },
+      "JSBC_Compression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_Decompression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Read": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Write": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "LayerTransactions": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "MajorGC": {
+        "median": "451.000000",
+        "stddev": "51.875114",
+        "rsd": "11.812619"
+      },
+      "MinorGC": {
+        "median": "26.000000",
+        "stddev": "7.669909",
+        "rsd": "26.585472"
+      },
+      "NonIdleMajorGC": {
+        "median": "11.000000",
+        "stddev": "18.708554",
+        "rsd": "94.967280"
+      },
+      "OnDataAvailableSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnDataAvailableToContent": {
+        "median": "855.000000",
+        "stddev": "759.213936",
+        "rsd": "77.708694"
+      },
+      "OnStartRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStartRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Rasterizing": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Reflowing": {
+        "median": "43.000000",
+        "stddev": "8.350299",
+        "rsd": "19.262513"
+      },
+      "ResponseEndSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Styling": {
+        "median": "88.000000",
+        "stddev": "11.744254",
+        "rsd": "12.744714"
+      },
+      "WrDisplayListBuilding": {
+        "median": "11.000000",
+        "stddev": "1.479865",
+        "rsd": "13.332116"
+      },
       "lcp_element": "\"\"https://www.water-sports-bali.com/wp-content/uploads/2024/09/Jet-Ski-Water-Sport-Tanjung-Benoa.webp\"\"",
       "PerceptualSpeedIndexProgress": [
         {

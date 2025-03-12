@@ -175,6 +175,206 @@
         "stddev": "2315.000000",
         "rsd": "16.650016"
       },
+      "A11Y_CoalesceEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_CoalesceMutationEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedAcc": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedNode": {
+        "median": "1.000000",
+        "stddev": "0.217945",
+        "rsd": "22.941573"
+      },
+      "A11Y_DoInitialUpdate": {
+        "median": "1.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ProcessQueuedCacheUpdate": {
+        "median": "30.000000",
+        "stddev": "2.123676",
+        "rsd": "7.008832"
+      },
+      "A11Y_ProcessShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_PruneOrInsertSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_RecvCache": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShutdownChildrenInSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Compositing": {
+        "median": "632.000000",
+        "stddev": "36.357255",
+        "rsd": "5.840523"
+      },
+      "DisplayListBuilding": {
+        "median": "76.000000",
+        "stddev": "7.681797",
+        "rsd": "10.283530"
+      },
+      "FrameBuilding": {
+        "median": "103.000000",
+        "stddev": "10.712026",
+        "rsd": "10.304979"
+      },
+      "HttpChannelAsyncOpenToTransactionPending": {
+        "median": "3306.000000",
+        "stddev": "405.215794",
+        "rsd": "12.470481"
+      },
+      "HttpChannelCompletion": {
+        "median": "39930.000000",
+        "stddev": "4593.048119",
+        "rsd": "11.253292"
+      },
+      "HttpChannelCompletion_Cache": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "HttpChannelCompletion_Network": {
+        "median": "39930.000000",
+        "stddev": "4593.048119",
+        "rsd": "11.253292"
+      },
+      "HttpChannelResponseEndParentToContent": {
+        "median": "414.000000",
+        "stddev": "85.502982",
+        "rsd": "20.712932"
+      },
+      "HttpChannelResponseStartParentToContent": {
+        "median": "335.000000",
+        "stddev": "59.061218",
+        "rsd": "17.465982"
+      },
+      "HttpTransactionWaitTime": {
+        "median": "7754.000000",
+        "stddev": "1377.702254",
+        "rsd": "17.382062"
+      },
+      "JSBC_Compression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_Decompression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Read": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Write": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "LayerTransactions": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "MajorGC": {
+        "median": "607.000000",
+        "stddev": "96.715705",
+        "rsd": "15.916351"
+      },
+      "MinorGC": {
+        "median": "36.000000",
+        "stddev": "6.675328",
+        "rsd": "17.944429"
+      },
+      "NonIdleMajorGC": {
+        "median": "20.000000",
+        "stddev": "16.507195",
+        "rsd": "79.552749"
+      },
+      "OnDataAvailableSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnDataAvailableToContent": {
+        "median": "2837.000000",
+        "stddev": "310.435565",
+        "rsd": "10.929290"
+      },
+      "OnStartRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStartRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Rasterizing": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Reflowing": {
+        "median": "32.000000",
+        "stddev": "2.725344",
+        "rsd": "8.347149"
+      },
+      "ResponseEndSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Styling": {
+        "median": "65.000000",
+        "stddev": "5.161395",
+        "rsd": "7.989776"
+      },
+      "WrDisplayListBuilding": {
+        "median": "65.000000",
+        "stddev": "4.693346",
+        "rsd": "7.203908"
+      },
       "lcp_element": "\"\"https://research.danskebank.com/research/static/media/danskedaily.b26094db3b9481c61b6e.jpg\"\"",
       "PerceptualSpeedIndexProgress": [
         {

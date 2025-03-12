@@ -199,6 +199,206 @@
         "stddev": "79.000000",
         "rsd": "0.482167"
       },
+      "A11Y_CoalesceEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_CoalesceMutationEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedAcc": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedNode": {
+        "median": "0.000000",
+        "stddev": "0.300000",
+        "rsd": "300.000000"
+      },
+      "A11Y_DoInitialUpdate": {
+        "median": "1.000000",
+        "stddev": "0.489898",
+        "rsd": "34.992711"
+      },
+      "A11Y_ProcessQueuedCacheUpdate": {
+        "median": "2789.000000",
+        "stddev": "235.767147",
+        "rsd": "8.653434"
+      },
+      "A11Y_ProcessShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_PruneOrInsertSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_RecvCache": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShutdownChildrenInSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Compositing": {
+        "median": "10555.000000",
+        "stddev": "664.777888",
+        "rsd": "6.420121"
+      },
+      "DisplayListBuilding": {
+        "median": "1810.000000",
+        "stddev": "171.653801",
+        "rsd": "9.704260"
+      },
+      "FrameBuilding": {
+        "median": "1310.000000",
+        "stddev": "51.170402",
+        "rsd": "3.926218"
+      },
+      "HttpChannelAsyncOpenToTransactionPending": {
+        "median": "615.000000",
+        "stddev": "278.031199",
+        "rsd": "38.855593"
+      },
+      "HttpChannelCompletion": {
+        "median": "28203.000000",
+        "stddev": "801.672344",
+        "rsd": "2.830419"
+      },
+      "HttpChannelCompletion_Cache": {
+        "median": "50.000000",
+        "stddev": "12.938702",
+        "rsd": "25.026502"
+      },
+      "HttpChannelCompletion_Network": {
+        "median": "28133.000000",
+        "stddev": "801.366163",
+        "rsd": "2.834502"
+      },
+      "HttpChannelResponseEndParentToContent": {
+        "median": "1200.000000",
+        "stddev": "314.517929",
+        "rsd": "25.667599"
+      },
+      "HttpChannelResponseStartParentToContent": {
+        "median": "1222.000000",
+        "stddev": "149.329594",
+        "rsd": "12.166830"
+      },
+      "HttpTransactionWaitTime": {
+        "median": "14538.000000",
+        "stddev": "401.603645",
+        "rsd": "2.756610"
+      },
+      "JSBC_Compression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_Decompression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Read": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Write": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "LayerTransactions": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "MajorGC": {
+        "median": "156.000000",
+        "stddev": "31.023338",
+        "rsd": "18.910904"
+      },
+      "MinorGC": {
+        "median": "30.000000",
+        "stddev": "4.121589",
+        "rsd": "13.189086"
+      },
+      "NonIdleMajorGC": {
+        "median": "10.000000",
+        "stddev": "7.681146",
+        "rsd": "54.865327"
+      },
+      "OnDataAvailableSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnDataAvailableToContent": {
+        "median": "1103.000000",
+        "stddev": "198.723451",
+        "rsd": "18.525538"
+      },
+      "OnStartRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStartRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Rasterizing": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Reflowing": {
+        "median": "41.000000",
+        "stddev": "4.341371",
+        "rsd": "10.575812"
+      },
+      "ResponseEndSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Styling": {
+        "median": "390.000000",
+        "stddev": "7.533923",
+        "rsd": "1.925850"
+      },
+      "WrDisplayListBuilding": {
+        "median": "1336.000000",
+        "stddev": "150.123774",
+        "rsd": "11.547538"
+      },
       "lcp_element": "\"\"https://emargit.gportal.hu/portal/emargit/image/csikos_kalacs_koszoru_5.jpg\"\"",
       "PerceptualSpeedIndexProgress": [
         {

@@ -178,6 +178,206 @@
         "stddev": "2637.000000",
         "rsd": "29.917961"
       },
+      "A11Y_CoalesceEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_CoalesceMutationEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedAcc": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedNode": {
+        "median": "0.000000",
+        "stddev": "0.217945",
+        "rsd": "435.889894"
+      },
+      "A11Y_DoInitialUpdate": {
+        "median": "16.000000",
+        "stddev": "4.804945",
+        "rsd": "28.686241"
+      },
+      "A11Y_ProcessQueuedCacheUpdate": {
+        "median": "19.000000",
+        "stddev": "4.261455",
+        "rsd": "20.487765"
+      },
+      "A11Y_ProcessShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_PruneOrInsertSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_RecvCache": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShutdownChildrenInSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Compositing": {
+        "median": "580.000000",
+        "stddev": "172.659897",
+        "rsd": "27.164867"
+      },
+      "DisplayListBuilding": {
+        "median": "26.000000",
+        "stddev": "6.355313",
+        "rsd": "22.616771"
+      },
+      "FrameBuilding": {
+        "median": "43.000000",
+        "stddev": "13.332198",
+        "rsd": "28.336234"
+      },
+      "HttpChannelAsyncOpenToTransactionPending": {
+        "median": "675.000000",
+        "stddev": "1305.221433",
+        "rsd": "136.088149"
+      },
+      "HttpChannelCompletion": {
+        "median": "11847.000000",
+        "stddev": "4237.177983",
+        "rsd": "31.940614"
+      },
+      "HttpChannelCompletion_Cache": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "HttpChannelCompletion_Network": {
+        "median": "11847.000000",
+        "stddev": "4237.177983",
+        "rsd": "31.940614"
+      },
+      "HttpChannelResponseEndParentToContent": {
+        "median": "682.000000",
+        "stddev": "218.204829",
+        "rsd": "29.018529"
+      },
+      "HttpChannelResponseStartParentToContent": {
+        "median": "1512.000000",
+        "stddev": "1293.511085",
+        "rsd": "70.689460"
+      },
+      "HttpTransactionWaitTime": {
+        "median": "1610.000000",
+        "stddev": "533.437932",
+        "rsd": "32.669133"
+      },
+      "JSBC_Compression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_Decompression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Read": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Write": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "LayerTransactions": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "MajorGC": {
+        "median": "537.000000",
+        "stddev": "90.987142",
+        "rsd": "16.311786"
+      },
+      "MinorGC": {
+        "median": "30.000000",
+        "stddev": "4.960847",
+        "rsd": "15.358659"
+      },
+      "NonIdleMajorGC": {
+        "median": "15.000000",
+        "stddev": "10.776827",
+        "rsd": "69.979396"
+      },
+      "OnDataAvailableSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnDataAvailableToContent": {
+        "median": "595.000000",
+        "stddev": "337.376092",
+        "rsd": "45.600607"
+      },
+      "OnStartRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStartRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Rasterizing": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Reflowing": {
+        "median": "57.000000",
+        "stddev": "11.895798",
+        "rsd": "20.760554"
+      },
+      "ResponseEndSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Styling": {
+        "median": "37.000000",
+        "stddev": "5.182663",
+        "rsd": "13.567182"
+      },
+      "WrDisplayListBuilding": {
+        "median": "44.000000",
+        "stddev": "7.404559",
+        "rsd": "15.804823"
+      },
       "lcp_element": "\"\"https://www.firia.pl/wp-content/uploads/2024/10/jakiesanajczestszeprzyczynykataruzatokowego-1536x1025.jpg\"\"",
       "PerceptualSpeedIndexProgress": [
         {

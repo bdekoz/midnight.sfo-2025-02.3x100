@@ -96,6 +96,206 @@
         "stddev": "371.000000",
         "rsd": "29.647429"
       },
+      "A11Y_CoalesceEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_CoalesceMutationEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedAcc": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedNode": {
+        "median": "1.000000",
+        "stddev": "0.217945",
+        "rsd": "20.756662"
+      },
+      "A11Y_DoInitialUpdate": {
+        "median": "2.000000",
+        "stddev": "1.000000",
+        "rsd": "50.000000"
+      },
+      "A11Y_ProcessQueuedCacheUpdate": {
+        "median": "67.000000",
+        "stddev": "4.030819",
+        "rsd": "5.932036"
+      },
+      "A11Y_ProcessShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_PruneOrInsertSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_RecvCache": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShutdownChildrenInSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Compositing": {
+        "median": "4792.000000",
+        "stddev": "613.658977",
+        "rsd": "13.497096"
+      },
+      "DisplayListBuilding": {
+        "median": "134.000000",
+        "stddev": "8.851412",
+        "rsd": "6.677791"
+      },
+      "FrameBuilding": {
+        "median": "440.000000",
+        "stddev": "26.882104",
+        "rsd": "6.124184"
+      },
+      "HttpChannelAsyncOpenToTransactionPending": {
+        "median": "730.000000",
+        "stddev": "1022.194105",
+        "rsd": "95.331695"
+      },
+      "HttpChannelCompletion": {
+        "median": "6353.000000",
+        "stddev": "2083.804436",
+        "rsd": "30.153523"
+      },
+      "HttpChannelCompletion_Cache": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "HttpChannelCompletion_Network": {
+        "median": "6353.000000",
+        "stddev": "2083.804436",
+        "rsd": "30.153523"
+      },
+      "HttpChannelResponseEndParentToContent": {
+        "median": "1425.000000",
+        "stddev": "641.199366",
+        "rsd": "39.871863"
+      },
+      "HttpChannelResponseStartParentToContent": {
+        "median": "1290.000000",
+        "stddev": "398.153171",
+        "rsd": "29.073947"
+      },
+      "HttpTransactionWaitTime": {
+        "median": "118.000000",
+        "stddev": "51.912523",
+        "rsd": "42.446870"
+      },
+      "JSBC_Compression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_Decompression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Read": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Write": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "LayerTransactions": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "MajorGC": {
+        "median": "216.000000",
+        "stddev": "38.329199",
+        "rsd": "15.414920"
+      },
+      "MinorGC": {
+        "median": "14.000000",
+        "stddev": "3.063903",
+        "rsd": "20.772222"
+      },
+      "NonIdleMajorGC": {
+        "median": "13.000000",
+        "stddev": "15.921369",
+        "rsd": "84.240049"
+      },
+      "OnDataAvailableSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnDataAvailableToContent": {
+        "median": "1937.000000",
+        "stddev": "1357.624516",
+        "rsd": "58.539746"
+      },
+      "OnStartRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStartRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Rasterizing": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Reflowing": {
+        "median": "28.000000",
+        "stddev": "8.857059",
+        "rsd": "31.022975"
+      },
+      "ResponseEndSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Styling": {
+        "median": "157.000000",
+        "stddev": "17.996944",
+        "rsd": "11.455725"
+      },
+      "WrDisplayListBuilding": {
+        "median": "129.000000",
+        "stddev": "20.855455",
+        "rsd": "15.391480"
+      },
       "lcp_element": "\"\"https://www.capitaleducrimeradio.com/cdn/shop/files/banmobile3_1x1.png.jpg?v=1728462740\"\"",
       "PerceptualSpeedIndexProgress": [],
       "ContentfulSpeedIndexProgress": [],

@@ -199,6 +199,206 @@
         "stddev": "3567.000000",
         "rsd": "31.378849"
       },
+      "A11Y_CoalesceEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_CoalesceMutationEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedAcc": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedNode": {
+        "median": "1.000000",
+        "stddev": "0.300000",
+        "rsd": "33.333333"
+      },
+      "A11Y_DoInitialUpdate": {
+        "median": "3.000000",
+        "stddev": "1.178983",
+        "rsd": "30.230323"
+      },
+      "A11Y_ProcessQueuedCacheUpdate": {
+        "median": "124.000000",
+        "stddev": "36.625947",
+        "rsd": "28.436294"
+      },
+      "A11Y_ProcessShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_PruneOrInsertSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_RecvCache": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShutdownChildrenInSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Compositing": {
+        "median": "767.000000",
+        "stddev": "1702.247699",
+        "rsd": "132.506729"
+      },
+      "DisplayListBuilding": {
+        "median": "161.000000",
+        "stddev": "72.624015",
+        "rsd": "40.335470"
+      },
+      "FrameBuilding": {
+        "median": "63.000000",
+        "stddev": "113.301633",
+        "rsd": "103.189101"
+      },
+      "HttpChannelAsyncOpenToTransactionPending": {
+        "median": "6670.000000",
+        "stddev": "1014.624310",
+        "rsd": "14.855190"
+      },
+      "HttpChannelCompletion": {
+        "median": "27851.000000",
+        "stddev": "2438.036288",
+        "rsd": "8.706215"
+      },
+      "HttpChannelCompletion_Cache": {
+        "median": "828.000000",
+        "stddev": "179.506344",
+        "rsd": "20.314190"
+      },
+      "HttpChannelCompletion_Network": {
+        "median": "26823.000000",
+        "stddev": "2459.033588",
+        "rsd": "9.067317"
+      },
+      "HttpChannelResponseEndParentToContent": {
+        "median": "2965.000000",
+        "stddev": "733.524301",
+        "rsd": "22.773185"
+      },
+      "HttpChannelResponseStartParentToContent": {
+        "median": "2617.000000",
+        "stddev": "597.774696",
+        "rsd": "21.481437"
+      },
+      "HttpTransactionWaitTime": {
+        "median": "5153.000000",
+        "stddev": "1445.856030",
+        "rsd": "23.866099"
+      },
+      "JSBC_Compression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_Decompression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Read": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Write": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "LayerTransactions": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "MajorGC": {
+        "median": "516.000000",
+        "stddev": "131.897839",
+        "rsd": "24.543699"
+      },
+      "MinorGC": {
+        "median": "39.000000",
+        "stddev": "4.322904",
+        "rsd": "10.875230"
+      },
+      "NonIdleMajorGC": {
+        "median": "48.000000",
+        "stddev": "15.120433",
+        "rsd": "28.448604"
+      },
+      "OnDataAvailableSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnDataAvailableToContent": {
+        "median": "2942.000000",
+        "stddev": "783.852848",
+        "rsd": "24.674678"
+      },
+      "OnStartRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStartRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Rasterizing": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Reflowing": {
+        "median": "57.000000",
+        "stddev": "9.117428",
+        "rsd": "15.157819"
+      },
+      "ResponseEndSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Styling": {
+        "median": "152.000000",
+        "stddev": "78.536616",
+        "rsd": "46.198009"
+      },
+      "WrDisplayListBuilding": {
+        "median": "44.000000",
+        "stddev": "71.018237",
+        "rsd": "120.166222"
+      },
       "lcp_element": "\"\"https://img.youtube.com/vi/vjG7LMoLk1g/hqdefault.jpg\"\"",
       "PerceptualSpeedIndexProgress": [
         {

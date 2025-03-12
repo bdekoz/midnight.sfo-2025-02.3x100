@@ -199,6 +199,206 @@
         "stddev": "174.000000",
         "rsd": "1.054039"
       },
+      "A11Y_CoalesceEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_CoalesceMutationEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedAcc": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedNode": {
+        "median": "1.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_DoInitialUpdate": {
+        "median": "1.000000",
+        "stddev": "0.663325",
+        "rsd": "47.380354"
+      },
+      "A11Y_ProcessQueuedCacheUpdate": {
+        "median": "46.000000",
+        "stddev": "5.386093",
+        "rsd": "11.291600"
+      },
+      "A11Y_ProcessShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_PruneOrInsertSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_RecvCache": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShutdownChildrenInSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Compositing": {
+        "median": "2437.000000",
+        "stddev": "905.936050",
+        "rsd": "32.986912"
+      },
+      "DisplayListBuilding": {
+        "median": "277.000000",
+        "stddev": "11.658044",
+        "rsd": "4.183008"
+      },
+      "FrameBuilding": {
+        "median": "155.000000",
+        "stddev": "19.540407",
+        "rsd": "12.379098"
+      },
+      "HttpChannelAsyncOpenToTransactionPending": {
+        "median": "1129.000000",
+        "stddev": "172.593424",
+        "rsd": "14.941860"
+      },
+      "HttpChannelCompletion": {
+        "median": "28001.000000",
+        "stddev": "2049.849565",
+        "rsd": "7.487652"
+      },
+      "HttpChannelCompletion_Cache": {
+        "median": "141.000000",
+        "stddev": "11.783887",
+        "rsd": "8.171905"
+      },
+      "HttpChannelCompletion_Network": {
+        "median": "27850.000000",
+        "stddev": "2048.578040",
+        "rsd": "7.522618"
+      },
+      "HttpChannelResponseEndParentToContent": {
+        "median": "1682.000000",
+        "stddev": "308.080606",
+        "rsd": "17.861816"
+      },
+      "HttpChannelResponseStartParentToContent": {
+        "median": "1313.000000",
+        "stddev": "242.716558",
+        "rsd": "18.281667"
+      },
+      "HttpTransactionWaitTime": {
+        "median": "5907.000000",
+        "stddev": "953.550869",
+        "rsd": "15.135248"
+      },
+      "JSBC_Compression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_Decompression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Read": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Write": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "LayerTransactions": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "MajorGC": {
+        "median": "368.000000",
+        "stddev": "29.195676",
+        "rsd": "7.960648"
+      },
+      "MinorGC": {
+        "median": "57.000000",
+        "stddev": "5.712049",
+        "rsd": "9.822956"
+      },
+      "NonIdleMajorGC": {
+        "median": "31.000000",
+        "stddev": "10.927488",
+        "rsd": "37.295182"
+      },
+      "OnDataAvailableSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnDataAvailableToContent": {
+        "median": "1262.000000",
+        "stddev": "253.911653",
+        "rsd": "18.796436"
+      },
+      "OnStartRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStartRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Rasterizing": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Reflowing": {
+        "median": "56.000000",
+        "stddev": "7.830070",
+        "rsd": "13.430652"
+      },
+      "ResponseEndSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Styling": {
+        "median": "804.000000",
+        "stddev": "49.394610",
+        "rsd": "6.192517"
+      },
+      "WrDisplayListBuilding": {
+        "median": "73.000000",
+        "stddev": "9.512623",
+        "rsd": "12.338033"
+      },
       "lcp_element": "\"\"https://media-aftermarket.schaeffler.com/__image/a/120006/alias/s2x/ar/16-6/fn/vls-installation-ina-FEAD-belt\"\"",
       "PerceptualSpeedIndexProgress": [
         {

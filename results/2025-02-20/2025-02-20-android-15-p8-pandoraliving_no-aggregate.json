@@ -199,6 +199,206 @@
         "stddev": "139.000000",
         "rsd": "0.969439"
       },
+      "A11Y_CoalesceEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_CoalesceMutationEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedAcc": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedNode": {
+        "median": "3.000000",
+        "stddev": "0.536190",
+        "rsd": "16.498162"
+      },
+      "A11Y_DoInitialUpdate": {
+        "median": "4.000000",
+        "stddev": "4.592385",
+        "rsd": "64.681479"
+      },
+      "A11Y_ProcessQueuedCacheUpdate": {
+        "median": "695.000000",
+        "stddev": "12.034430",
+        "rsd": "1.728712"
+      },
+      "A11Y_ProcessShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_PruneOrInsertSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_RecvCache": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShutdownChildrenInSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Compositing": {
+        "median": "7178.000000",
+        "stddev": "1013.121434",
+        "rsd": "13.957917"
+      },
+      "DisplayListBuilding": {
+        "median": "993.000000",
+        "stddev": "26.493914",
+        "rsd": "2.672509"
+      },
+      "FrameBuilding": {
+        "median": "828.000000",
+        "stddev": "25.635717",
+        "rsd": "3.058790"
+      },
+      "HttpChannelAsyncOpenToTransactionPending": {
+        "median": "917.000000",
+        "stddev": "192.591245",
+        "rsd": "19.637139"
+      },
+      "HttpChannelCompletion": {
+        "median": "12643.000000",
+        "stddev": "1609.910060",
+        "rsd": "12.476054"
+      },
+      "HttpChannelCompletion_Cache": {
+        "median": "24.000000",
+        "stddev": "32.971048",
+        "rsd": "82.222065"
+      },
+      "HttpChannelCompletion_Network": {
+        "median": "12555.000000",
+        "stddev": "1618.357189",
+        "rsd": "12.580415"
+      },
+      "HttpChannelResponseEndParentToContent": {
+        "median": "5503.000000",
+        "stddev": "795.386376",
+        "rsd": "14.511040"
+      },
+      "HttpChannelResponseStartParentToContent": {
+        "median": "3616.000000",
+        "stddev": "475.611039",
+        "rsd": "12.743450"
+      },
+      "HttpTransactionWaitTime": {
+        "median": "500.000000",
+        "stddev": "87.772490",
+        "rsd": "17.000289"
+      },
+      "JSBC_Compression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_Decompression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Read": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Write": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "LayerTransactions": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "MajorGC": {
+        "median": "227.000000",
+        "stddev": "26.205486",
+        "rsd": "11.822913"
+      },
+      "MinorGC": {
+        "median": "28.000000",
+        "stddev": "4.363485",
+        "rsd": "15.256940"
+      },
+      "NonIdleMajorGC": {
+        "median": "23.000000",
+        "stddev": "12.338861",
+        "rsd": "55.958555"
+      },
+      "OnDataAvailableSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnDataAvailableToContent": {
+        "median": "3290.000000",
+        "stddev": "716.193172",
+        "rsd": "20.879050"
+      },
+      "OnStartRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStartRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Rasterizing": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Reflowing": {
+        "median": "522.000000",
+        "stddev": "13.548432",
+        "rsd": "2.596480"
+      },
+      "ResponseEndSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Styling": {
+        "median": "624.000000",
+        "stddev": "9.564910",
+        "rsd": "1.532224"
+      },
+      "WrDisplayListBuilding": {
+        "median": "574.000000",
+        "stddev": "12.769103",
+        "rsd": "2.207278"
+      },
       "lcp_element": "\"\"https://pandoraliving.no/cdn/shop/files/Saekkestol_i_hjemmet_x1024.webp?v=1727936180\"\"",
       "PerceptualSpeedIndexProgress": [
         {

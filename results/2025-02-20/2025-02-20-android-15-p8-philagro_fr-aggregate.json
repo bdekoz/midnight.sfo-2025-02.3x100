@@ -199,6 +199,206 @@
         "stddev": "45.000000",
         "rsd": "0.291980"
       },
+      "A11Y_CoalesceEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_CoalesceMutationEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedAcc": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedNode": {
+        "median": "0.000000",
+        "stddev": "0.300000",
+        "rsd": "300.000000"
+      },
+      "A11Y_DoInitialUpdate": {
+        "median": "9.000000",
+        "stddev": "2.063977",
+        "rsd": "21.060987"
+      },
+      "A11Y_ProcessQueuedCacheUpdate": {
+        "median": "103.000000",
+        "stddev": "8.015454",
+        "rsd": "7.778218"
+      },
+      "A11Y_ProcessShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_PruneOrInsertSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_RecvCache": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShutdownChildrenInSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Compositing": {
+        "median": "2941.000000",
+        "stddev": "374.641732",
+        "rsd": "12.868316"
+      },
+      "DisplayListBuilding": {
+        "median": "178.000000",
+        "stddev": "12.990766",
+        "rsd": "7.209082"
+      },
+      "FrameBuilding": {
+        "median": "260.000000",
+        "stddev": "22.468812",
+        "rsd": "8.525446"
+      },
+      "HttpChannelAsyncOpenToTransactionPending": {
+        "median": "2406.000000",
+        "stddev": "674.858539",
+        "rsd": "26.966835"
+      },
+      "HttpChannelCompletion": {
+        "median": "38954.000000",
+        "stddev": "8859.036824",
+        "rsd": "21.445493"
+      },
+      "HttpChannelCompletion_Cache": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "HttpChannelCompletion_Network": {
+        "median": "38954.000000",
+        "stddev": "8859.036824",
+        "rsd": "21.445493"
+      },
+      "HttpChannelResponseEndParentToContent": {
+        "median": "674.000000",
+        "stddev": "148.642154",
+        "rsd": "21.231560"
+      },
+      "HttpChannelResponseStartParentToContent": {
+        "median": "785.000000",
+        "stddev": "185.623887",
+        "rsd": "23.656903"
+      },
+      "HttpTransactionWaitTime": {
+        "median": "508.000000",
+        "stddev": "210.894589",
+        "rsd": "36.686890"
+      },
+      "JSBC_Compression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_Decompression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Read": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Write": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "LayerTransactions": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "MajorGC": {
+        "median": "267.000000",
+        "stddev": "86.677044",
+        "rsd": "30.487880"
+      },
+      "MinorGC": {
+        "median": "20.000000",
+        "stddev": "3.948417",
+        "rsd": "17.866142"
+      },
+      "NonIdleMajorGC": {
+        "median": "13.000000",
+        "stddev": "14.056582",
+        "rsd": "81.487432"
+      },
+      "OnDataAvailableSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnDataAvailableToContent": {
+        "median": "1279.000000",
+        "stddev": "333.623212",
+        "rsd": "26.032789"
+      },
+      "OnStartRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStartRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Rasterizing": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Reflowing": {
+        "median": "39.000000",
+        "stddev": "6.586919",
+        "rsd": "15.229870"
+      },
+      "ResponseEndSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Styling": {
+        "median": "177.000000",
+        "stddev": "7.803044",
+        "rsd": "4.317037"
+      },
+      "WrDisplayListBuilding": {
+        "median": "157.000000",
+        "stddev": "11.370576",
+        "rsd": "7.247021"
+      },
       "lcp_element": "\"\"https://www.philagro.fr/wp-content/uploads/2016/02/bg_slider_vigne.jpg\"\"",
       "PerceptualSpeedIndexProgress": [
         {

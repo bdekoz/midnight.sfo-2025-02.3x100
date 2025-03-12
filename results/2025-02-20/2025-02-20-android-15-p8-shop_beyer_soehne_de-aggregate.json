@@ -199,6 +199,206 @@
         "stddev": "0.000000",
         "rsd": "0.000000"
       },
+      "A11Y_CoalesceEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_CoalesceMutationEvents": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedAcc": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ContentRemovedNode": {
+        "median": "1.000000",
+        "stddev": "0.217945",
+        "rsd": "22.941573"
+      },
+      "A11Y_DoInitialUpdate": {
+        "median": "7.000000",
+        "stddev": "2.973214",
+        "rsd": "34.572253"
+      },
+      "A11Y_ProcessQueuedCacheUpdate": {
+        "median": "1385.000000",
+        "stddev": "59.713399",
+        "rsd": "4.308637"
+      },
+      "A11Y_ProcessShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_PruneOrInsertSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_RecvCache": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShowEvent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "A11Y_ShutdownChildrenInSubtree": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Compositing": {
+        "median": "9224.000000",
+        "stddev": "3565.540942",
+        "rsd": "33.176155"
+      },
+      "DisplayListBuilding": {
+        "median": "724.000000",
+        "stddev": "34.746942",
+        "rsd": "4.679723"
+      },
+      "FrameBuilding": {
+        "median": "1117.000000",
+        "stddev": "55.448535",
+        "rsd": "4.940176"
+      },
+      "HttpChannelAsyncOpenToTransactionPending": {
+        "median": "3542.000000",
+        "stddev": "993.271735",
+        "rsd": "24.258090"
+      },
+      "HttpChannelCompletion": {
+        "median": "39401.000000",
+        "stddev": "4766.161106",
+        "rsd": "10.914602"
+      },
+      "HttpChannelCompletion_Cache": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "HttpChannelCompletion_Network": {
+        "median": "39401.000000",
+        "stddev": "4766.161106",
+        "rsd": "10.914602"
+      },
+      "HttpChannelResponseEndParentToContent": {
+        "median": "5528.000000",
+        "stddev": "908.090133",
+        "rsd": "16.565244"
+      },
+      "HttpChannelResponseStartParentToContent": {
+        "median": "6601.000000",
+        "stddev": "3430.976777",
+        "rsd": "40.182195"
+      },
+      "HttpTransactionWaitTime": {
+        "median": "1733.000000",
+        "stddev": "990.497203",
+        "rsd": "48.394841"
+      },
+      "JSBC_Compression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_Decompression": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Read": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "JSBC_IO_Write": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "LayerTransactions": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "MajorGC": {
+        "median": "218.000000",
+        "stddev": "39.011409",
+        "rsd": "18.674681"
+      },
+      "MinorGC": {
+        "median": "29.000000",
+        "stddev": "4.589118",
+        "rsd": "15.195754"
+      },
+      "NonIdleMajorGC": {
+        "median": "8.000000",
+        "stddev": "10.022475",
+        "rsd": "80.179798"
+      },
+      "OnDataAvailableSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnDataAvailableToContent": {
+        "median": "20095.000000",
+        "stddev": "32693.614171",
+        "rsd": "110.441139"
+      },
+      "OnStartRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStartRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "OnStopRequestToContent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Rasterizing": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Reflowing": {
+        "median": "59.000000",
+        "stddev": "16.301764",
+        "rsd": "25.692299"
+      },
+      "ResponseEndSocketToParent": {
+        "median": "0.000000",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "Styling": {
+        "median": "821.000000",
+        "stddev": "38.744806",
+        "rsd": "4.714627"
+      },
+      "WrDisplayListBuilding": {
+        "median": "1548.000000",
+        "stddev": "89.226902",
+        "rsd": "5.740279"
+      },
       "lcp_element": "\"\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='xMidYMid slice' style='filter: url(%23b);' href='data:image/png;base64\"\"",
       "PerceptualSpeedIndexProgress": [
         {
