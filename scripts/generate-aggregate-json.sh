@@ -2,6 +2,16 @@
 
 XURLMIN=$MOZPERFAX/bin/moz-perf-x-transform-url.exe
 XAGGREGATE=../../scripts/generate_aggregate_json_by_date.py
+
+TDATE=$1
+
+#TPMETADATA1="android-15-p8"
+#TPMETADATA2="android-15-ptablet"
+#TPMETADATA3="android-14-a55"
+#TPMETADATA4="linux-18"
+#TPMETADATA5="windows-11"
+TPMETADATA=$2
+
 CHROMEDIR=chrome
 FIREFOXDIR=firefox
 
@@ -9,14 +19,6 @@ ODIR=tmp
 if [ ! -d tmp ]; then
     mkdir $ODIR
 fi
-
-TPMETADATA1="android-15-p8"
-TPMETADATA1a="android-15-p8-a11y-on"
-TPMETADATA2="android-15-ptablet"
-TPMETADATA3="android-14-a55"
-TPMETADATA4="linux-18"
-TPMETADATA5="windows-11"
-
 
 get_aggregate() {
     TESTN="$1"
@@ -28,7 +30,7 @@ get_aggregate() {
     $XAGGREGATE "$TESTN" "$PLATFORMN" "$ISODATE" "${ARTIFACT_BASE}-side-by-side.mp4" "${ARTIFACT_BASE}-firefox-filmstrip.json" "${ARTIFACT_BASE}-firefox-cold-browsertime-metrics.json" "${ARTIFACT_BASE}-chrome-filmstrip.json" "${ARTIFACT_BASE}-chrome-cold-browsertime-metrics.json"
 }
 
-#get_aggregate "amazon" "android" "2025-02-15"
+#get_aggregate "amazon" "android" "$TDATE"
 
 # 2
 generate_platform_by_sitelist() {
@@ -67,7 +69,7 @@ generate_platform_by_sitelist() {
    done
 }
 
-generate_platform_by_sitelist "$TPMETADATA1" "2025-02-20" "./sitelist.txt"
+generate_platform_by_sitelist "$TPMETADATA" "$TDATE" "./sitelist.txt"
 
 # 3
 generate_data_json() {
@@ -139,6 +141,6 @@ generate_2_col_index() {
     echo "</table>" >> $MDOWNIDX2
 }
 
-TPMETADATA_A=$TPMETADATA1
-TPMETADATA_B=$TPMETADATA1a
-generate_2_col_index "$TPMETADATA_A" "2025-02-15" "$TPMETADATA_B" "2025-02-20" "./sitelist.txt"
+#TPMETADATA_A=$TPMETADATA1
+#TPMETADATA_B=$TPMETADATA2
+#generate_2_col_index "$TPMETADATA_A" "2025-02-09" "$TPMETADATA_B" "2025-05-27" "./sitelist.txt"

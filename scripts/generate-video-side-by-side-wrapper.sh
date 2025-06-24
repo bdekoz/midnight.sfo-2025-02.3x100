@@ -3,6 +3,12 @@
 XURLMIN=$MOZPERFAX/bin/moz-perf-x-transform-url.exe
 XSIDEXSIDE=../../scripts/generate_video_side_by_side_standalone.py
 
+TDATE=$1
+
+#TPMETADATA="android-15-p8"
+#TPMETADATA="android-15-ptablet"
+TPMETADATA=$2
+
 CHROMEDIR=chrome
 FIREFOXDIR=firefox
 
@@ -77,5 +83,4 @@ generate_platform_by_sitelist() {
 
 }
 
-TPMETADATA="android-15-p8"
-generate_platform_by_sitelist "$TPMETADATA" "./sitelist.txt" "2025-02-20"
+generate_platform_by_sitelist "$TPMETADATA" "./sitelist.txt" "$TDATE"
