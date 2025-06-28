@@ -9,6 +9,13 @@ TDATE=$1
 #TPMETADATA="android-15-ptablet"
 TPMETADATA=$2
 
+TSITELIST=$3
+if [ ! -n "$TSITELIST" ]; then
+    echo "Sitelist argument not supplied, using default of ./sitelist.txt";
+    TSITELIST="./sitelist.txt";
+fi
+
+
 CHROMEDIR=chrome
 FIREFOXDIR=firefox
 
@@ -20,9 +27,10 @@ fi
 # assume data layout as
 # results/2024-11-10/chrome_release,fenix_nightly/[minified-url].[json | mp4]
 generate_platform_by_sitelist() {
-    PLATFORM="$1"
-    SITELIST="$2"
-    ISODATE="$3"
+    ISODATE="$1"
+    PLATFORM="$2"
+    SITELIST="$3"
+
 
    for i in `cat ${SITELIST}`
    do
@@ -102,4 +110,4 @@ generate_platform_by_sitelist() {
 
 }
 
-generate_platform_by_sitelist "$TPMETADATA" "./sitelist.txt" "$TDATE"
+generate_platform_by_sitelist "$TDATE" "$TPMETADATA" "$TSITELIST"
