@@ -110,4 +110,36 @@ generate_platform_by_sitelist() {
 
 }
 
-generate_platform_by_sitelist "$TDATE" "$TPMETADATA" "$TSITELIST"
+#generate_platform_by_sitelist "$TDATE" "$TPMETADATA" "$TSITELIST"
+
+
+generate_platform_by_sitelist_control_points() {
+    ISODATE="$1"
+    PLATFORM="$2"
+    SITELIST="$3"
+    BROWSER="$4"
+
+   for i in `cat ${SITELIST}`
+   do
+       URLM=`${XURLMIN} "$i"`
+       TPLATFORM="${PLATFORM}-${URLM}"
+       ARTIFACT_BASE="$ISODATE-$TPLATFORM";
+
+       # Generate thumbnails for firefox video.
+       BJSON=${BROWSER}/${URLM}-control-points.json
+       if [ -f "${BJSON}" ]; then
+	   echo "starting	${i}: ${URLM} ${BROWSER}"
+	   CV="${ODIR}/${ARTIFACT_BASE}-${BROWSER}.mp4"
+	   $XTHUMBNAILS $CV $BJSON
+       else
+	   echo "skipping	${i}: ${URLM} ${BROWSER}, not found"
+       fi
+       echo ""
+   done
+}
+
+generate_platform_by_sitelist_control_points "$TDATE" "$TPMETADATA" "$TSITELIST" \
+					     $FIREFOXDIR
+
+generate_platform_by_sitelist_control_points "$TDATE" "$TPMETADATA" "$TSITELIST" \
+					     $CHROMEDIR

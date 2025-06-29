@@ -11,6 +11,9 @@ from pathlib import Path
 
 # setup input file, output file naming conventions
 ifile = sys.argv[1];
+cpfile = sys.argv[2];
+maxvlen = int(sys.argv[2]);
+
 filename = Path(ifile);
 filenamebase = os.path.splitext(filename)[0]
 ofnamebase = os.path.basename(filenamebase)
@@ -37,7 +40,7 @@ print("duration in ms: ", durms)
 
 # limits, hard max is 10sec.
 hardmax = 10 * 1000;
-maxvlen = int(sys.argv[2]);
+
 
 def minimum(a, b):
   if a < b:
@@ -113,6 +116,39 @@ def generate_video_filmstrip_interval(ivideo, intervaln):
         filmstrip_dict[timecodestr] = f"{ofnamebase}_{timecodestr}.{imgformat}"
 
 
+# control points taken from SpeedIndexProgress visual metrics.
+def generate_video_filmstrip_control_points(ivideo, cpfilename):
+    cspace = ' '
+
+    try:
+        with open(cpfilename, 'r') as f:
+            for line in f:
+                timecodems = line.strip()
+                print(tcms)
+                timecoden = float(timecodems / 1000);
+                if timecoden < 60:
+                    thumbflag = "-ss 00:00:" + str(timecoden) + cspace + "-frames:v 1"
+                else:
+                    timecodemin = int(timecoden/60)
+                    timecodesec = timecoden - timecodemin;
+                    thumbflag = "-ss 00:" + str(timecodemin) + ":" + str(timecodesec) + cspace + "-frames:v 1"
+                    #timecodestr = f"{timecoden:.2f}"
+                    timecodestr = f"{timecodems:05}"
+                    ofname = f"{filenamebase}_{timecodestr}.{imgformat}"
+                    fcommand="ffmpeg -i " + ifile + cspace + thumbflag + cspace + ofname
+                    #print(str(timecoden) + cspace + fcommand)
+                    os.system(fcommand)
+                    filmstrip_dict[timecodestr] = f"{ofnamebase}_{timecodestr}.{imgformat}"
+
+
+    except FileNotFoundError:
+        print(f"Error: The file '{cpfilename}' was not found.", file=sys.stderr)
+        sys.exit(1)
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}", file=sys.stderr)
+        sys.exit(1)
+
+
 # Assume ivideo.json file created during extraction.
 # 2024-11-11-android-chrome-amazon.mp4
 # 2024-11-11-android-chrome-amazon-video.json
@@ -129,5 +165,8 @@ def serialize_data(ivideo, filmstrip_res, tdict, ofname):
         json.dump(vdict, f, indent=2)
 
 #generate_video_filmstrip_partition_n(ifile, 12)
-generate_video_filmstrip_interval(ifile, 100)
-serialize_data(ifile, 100, filmstrip_dict, filenamebase + "-filmstrip.json")
+#generate_video_filmstrip_interval(ifile, 100)
+generate_video_filmstrip_control_points(ivideo, cpfile):
+
+#serialize_data(ifile, 100, filmstrip_dict, filenamebase + "-filmstrip.json")
+serialize_data(ifile, "control_points", filmstrip_dict, filenamebase + "-filmstrip.json")
