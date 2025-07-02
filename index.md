@@ -19,6 +19,8 @@
 - [2025-06-25 phone talkback](/2025-06-25-p8-talkback.md)
 - [2025-06-26 phone talkback](/2025-06-26-p8-talkback.md)
 - [2025-06-26 tablet talkback](/2025-06-26-ptablet-talkback.md)
+- [2025-06-30 phone talkback](/2025-06-30-p8-talkback.md)
+- [2025-06-30 tablet talkback](/2025-06-30-ptablet-talkback.md)
 
 
 ## Data
