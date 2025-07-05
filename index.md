@@ -21,6 +21,8 @@
 - [2025-06-26 tablet talkback](/2025-06-26-ptablet-talkback.md)
 - [2025-06-30 phone talkback](/2025-06-30-p8-talkback.md)
 - [2025-06-30 tablet talkback](/2025-06-30-ptablet-talkback.md)
+- [2025-07-02 tablet svg](/2025-07-02-ptablet-svg.md)
+- [2025-07-02 tablet markdown](/2025-07-02-ptablet-markdown.md)
 
 
 ## Data
