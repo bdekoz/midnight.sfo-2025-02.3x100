@@ -10,5 +10,5 @@ for FILE in `ls *aggregate.json`; do
     fi
 done
 
-mv *.svg ../../resources/
-mv *.md ../../pages/
+mv 2025*.svg ../../resources/
+mv 2025*.md ../../pages/
